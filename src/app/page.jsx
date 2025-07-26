@@ -59,7 +59,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-rose-100 to-purple-100 flex flex-col items-center justify-center p-4 overflow-hidden">
       {isBirthday && <Confetti />}
-{/*       <FloatingHearts /> */}
+       <FloatingHearts /> 
 
       <motion.div
         initial={{ opacity: 0, y: 20 }}
